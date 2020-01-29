@@ -17,6 +17,5 @@ def arabic2roman(number):
             print(roman_symb[i], roman_num = "")
             quot -= 1
         i -= 1
-    return roman_num
 
 
