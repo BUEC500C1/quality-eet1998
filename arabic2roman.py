@@ -14,7 +14,7 @@ def arabic2roman(number):
 
         # Prints roman numerals equivalent to quotient (e.g. 2300/1000 --> quot = 2, so M will print twice )
         while quot: 
-            print(roman_symb[i], roman_num = "")
+            print(roman_symb[i])
             quot -= 1
         i -= 1
 
