@@ -18,7 +18,7 @@ def arabic2roman(number):
         # Prints roman numerals equivalent to quotient (e.g. 2300/1000 --> quot = 2, so M will print twice )
         while quot: 
             #print(roman_symb[i])
-            roman_final += roman_symb[i] # Fixes spacing issue (? I hope ?)
+            roman_final += roman_symb[i] # Fixes spacing issue
             quot -= 1
         i -= 1
     return roman_final
