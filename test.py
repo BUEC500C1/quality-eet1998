@@ -1,5 +1,6 @@
 # References: https://realpython.com/python-testing/ & https://www.tutorialspoint.com/python/assertions_in_python.htm 
 
+import pytest
 from arabic2roman import arabic2roman
 
 def test():
